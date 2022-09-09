@@ -1,0 +1,105 @@
+.App {
+  width: 490px;
+  height: 669px;
+  background-color: #0B2434;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.tenzies--mid-square {
+  width: 420px;
+  height: 570px;  
+  background: #F5F5F5;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.die--box {
+  display: grid;
+  grid-template: auto auto / repeat(5, 1fr);
+  gap: 30px;
+
+}
+
+.die {
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  color: #2B283A;
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20.5889px;
+  line-height: 24px;
+  text-align: center;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.die--title {
+  margin: 0;
+}
+
+.die--instructions {
+  text-align: center;
+  max-width: 80%;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.die--button {
+  width: 180px;
+  height: 45.84px;
+  padding: 30px;
+  background-color: #5035FF;
+  color: white;
+  box-shadow: 0px 3.2px 7.68px rgba(0, 0, 0, 0.18);
+  border-radius: 3.81277px;
+  border: none;
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 19px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+  line-height: 1.2;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+.die--button:focus {
+  outline: none;
+}
+
+.die--button:active {
+  box-shadow: inset 5px 5px 10px -3px rgba(0, 0, 0, 0.7);
+}
+
+.die--count {
+  margin-top: 0px;
+}
+
+.dice--won {
+  text-align: center;
+  color: #59E391;
+  font-weight: 600;
+}
+
+.dice--lose {
+  text-align: center;
+  color: red;
+  font-weight: 600;
+}
